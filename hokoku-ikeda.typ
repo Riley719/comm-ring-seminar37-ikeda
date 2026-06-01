@@ -3,7 +3,7 @@
 #show link: underline
 #show link: set text(fill: blue)
 #set page(numbering: "1 / 1")
-#set par(justify: true)
+#set par(justify: true, first-line-indent: (amount: 1em, all: true))
 #show math.equation: set block(breakable: true)
 #let title = "On Krull's Dimension Theorem for Certain Graded Rings and Its Applications"
 #show title: set align(center)
@@ -80,8 +80,40 @@
 
 
 = 概要
-TBA
+
+本発表はarXiv:2605.00463に基づく。分野は可換環、特に次数付き環の次元論である。
+
+計算機代数であり、自然な次数付き環の構造を持つイニシャル代数は、ネーター環になるとは限らない。したがって、Krullの次元定理の次数環バージョンであるSmokeの次元定理を適用し、イニシャル代数に関する次元論を展開することはできない。そこで、発表者はイニシャル代数の次元を捉えるために、Smokeの次元定理を一般化した。
+
+本発表では、次数付き環に対するさまざまな次元の定義、イニシャル代数の紹介、そして発表者の主張する次元定理を説明する。最後に、主定理に関する例と問題を紹介して終わる。
 
 = 参考資料
-論文のリンク #link("https://arxiv.org/abs/2605.00463")[#box(sicon(slug: "arxiv", size: 1em, icon-color: "default")) arXiv:2605.00463] \
-解説動画のリンク #link("https://www.youtube.com/playlist?list=PLRjQpg-mYYm3b2Wgw5VHd-VB85mEZ0i3z")[#box(sicon(slug: "youtube", size: 1em, icon-color: "default")) https://www.youtube.com/playlist?list=PLRjQpg-mYYm3b2Wgw5VHd-VB85mEZ0i3z]
+#[
+  #set par(first-line-indent: 0pt)
+  論文のリンク \
+  #link("https://arxiv.org/abs/2605.00463")[#box(sicon(slug: "arxiv", size: 1em, icon-color: "default")) https://arxiv.org/abs/2605.00463]
+
+  解説動画のリンク \
+  #link("https://www.youtube.com/playlist?list=PLRjQpg-mYYm3b2Wgw5VHd-VB85mEZ0i3z")[#box(sicon(slug: "youtube", size: 1em, icon-color: "default")) #box("https://www.youtube.com/playlist?list=PLRjQpg-mYYm3b2Wgw5VHd-VB85mEZ0i3z")]
+
+  事前報告書置き場 \
+  #link("https://github.com/Riley719/comm-ring-seminar37-ikeda")[#box(sicon(slug: "github", size: 1em, icon-color: "default")) https://github.com/Riley719/comm-ring-seminar37-ikeda]
+]
+
+= 板書
+
+当日の発表は基本的に次に示す13枚の板書に沿って行う予定である。
+
+#align(center)[
+  #grid(
+    columns: 2,           // 2列で配置（3列にする場合は 3 に変更してください）
+    gutter: 10pt,         // 画像（枠線）同士の隙間
+    ..range(1, 14).map(p => 
+      rect(
+        stroke: 0.5pt + black, // 黒い実線の枠
+        inset: 0pt,            // 枠線と画像の間の余白をなくす
+        image("bansyo.pdf", page: p, width: 100%) // 枠に合わせて幅を指定
+      )
+    )
+  )
+]
