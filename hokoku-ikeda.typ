@@ -81,7 +81,7 @@
 
 = 概要
 
-本発表はarXiv:2605.00463に基づく。分野は可換環、特に次数付き環の次元論である。
+本資料は第37回可換環論セミナー（千葉大学）における2026年６月４日(木)10:00～10:40の池田 吏来（東京科学大M2）による発表の事前報告書である。本発表はarXiv:2605.00463に基づく。分野は可換環、特に次数付き環の次元論である。
 
 計算機代数であり、自然な次数付き環の構造を持つイニシャル代数は、ネーター環になるとは限らない。したがって、Krullの次元定理の次数環バージョンであるSmokeの次元定理を適用し、イニシャル代数に関する次元論を展開することはできない。そこで、発表者はイニシャル代数の次元を捉えるために、Smokeの次元定理を一般化した。
 
@@ -90,14 +90,14 @@
 = 参考資料
 #[
   #set par(first-line-indent: 0pt)
-  論文のリンク \
-  #link("https://arxiv.org/abs/2605.00463")[#box(sicon(slug: "arxiv", size: 1em, icon-color: "default")) https://arxiv.org/abs/2605.00463]
+  #box(baseline: 15%, sicon(slug: "arxiv", size: 1em, icon-color: "default")) 論文のリンク \
+  #link("https://arxiv.org/abs/2605.00463")[https://arxiv.org/abs/2605.00463]
 
-  解説動画のリンク \
-  #link("https://www.youtube.com/playlist?list=PLRjQpg-mYYm3b2Wgw5VHd-VB85mEZ0i3z")[#box(sicon(slug: "youtube", size: 1em, icon-color: "default")) #box("https://www.youtube.com/playlist?list=PLRjQpg-mYYm3b2Wgw5VHd-VB85mEZ0i3z")]
+  #box(baseline: 15%, sicon(slug: "youtube", size: 1em, icon-color: "default")) 解説動画のリンク \
+  #link("https://www.youtube.com/playlist?list=PLRjQpg-mYYm3b2Wgw5VHd-VB85mEZ0i3z")[https://www.youtube.com/playlist?list=PLRjQpg-mYYm3b2Wgw5VHd-VB85mEZ0i3z]
 
-  事前報告書置き場 \
-  #link("https://github.com/Riley719/comm-ring-seminar37-ikeda")[#box(sicon(slug: "github", size: 1em, icon-color: "default")) https://github.com/Riley719/comm-ring-seminar37-ikeda]
+  #box(baseline: 15%, sicon(slug: "github", size: 1em, icon-color: "default")) 事前報告書置き場 \
+  #link("https://github.com/Riley719/comm-ring-seminar37-ikeda")[https://github.com/Riley719/comm-ring-seminar37-ikeda]
 ]
 
 = 板書
